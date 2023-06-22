@@ -8,10 +8,8 @@ from utils import apicall, train_model;
 
 @app.route('/')
 def test():
-    apicall(["json2.json", "json1.json"],0,50000)
-    prediction = train_model(0)
     return {
-        'prediction': prediction, 'day': 0
+        'messages': "Welcome to spendwise machine learning api." 
     }
     
     
