@@ -2,6 +2,6 @@
 "Name" : "json",
 "Item": "onigiri",
 "Category": "grocery",
-"Amount": 710,
+"amount": 710,
 "Created_At" : "22juin2018"
 }
