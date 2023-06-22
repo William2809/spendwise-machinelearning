@@ -1,7 +1,7 @@
 from flask import Flask, request;
 
 app = Flask(__name__);
-from utils import apicall, train_model;
+from api.utils import apicall, train_model;
 
 # 
 # flask --app app run --port=5001
